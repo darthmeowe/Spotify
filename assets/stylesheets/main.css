@@ -61,6 +61,12 @@ header{
     background-color: rgba(000,000,000,.7); 
     position: fixed;
 }
+.header_profile{
+    background-color: tomato;
+    display: flex;
+    color: white;
+    background: url("../Spotify/img/main_profile.png") no-repeat 5% 50%;
+} 
 
 main{
     border: 2px solid black;
@@ -71,10 +77,12 @@ main{
     width: 100%;
     height: 900px;
     margin: 0 auto;
+    padding: auto 50px;
 }
 
-.first{
-    background:linear-gradient(to left,  rgb(123, 57, 185), rgb(121, 85, 118));
+.first_block{
+    background:linear-gradient(to left,   rgb(83, 48, 141), rgb(187, 123, 194), rgb(133, 74, 127));
+    
 }
 .first_content {
     width: auto;
@@ -83,7 +91,7 @@ main{
     padding-left: 50px;
     padding-right: 50px;
 }
-.right{
+.left{
     width: 30%;   
 
     display:flex;
@@ -91,7 +99,7 @@ main{
     justify-content: center;
     align-items:flex-start; 
 }
-.left{
+.right{
     width: 70%;
     display:flex;
     flex-direction: column;
@@ -103,6 +111,42 @@ img {
     width: 250px;
     display: inline-block;
 } 
+
+.second_block{
+    height: 500px;
+}
+.second_content{
+    padding: 50px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.anchor {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 800;
+}
+.anchor,
+a {
+    color:rgb(44, 165, 74);
+    text-decoration: none;
+    
+}
+h1.second{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    font-size: 48px;
+}
+h3.second{
+    padding-bottom: 40px;
+}
 
 h1{
     font-size: 40px;
@@ -123,6 +167,8 @@ h3{
     padding-bottom: 20px;
 }
 
+
+
 button{
     width: 300px;
     height: 70px;
@@ -141,13 +187,14 @@ button:hover{
 }
 
 
-.second_content{
-    background: rgb(141, 210, 30);
-}
-
 
 footer{
     width: 100%;
-    height: 200px;
+    height: 510px;
     background-color: darkred;
+
+}
+.container_footer{
+    padding-top: 40px;
+    line-height: 40px;
 }

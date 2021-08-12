@@ -62,10 +62,7 @@ header{
     position: fixed;
 }
 .header_profile{
-    background-color: tomato;
-    display: flex;
-    color: white;
-    background: url("../main_profile.png") no-repeat 5% 50%;
+    
 } 
 
 main{
@@ -106,7 +103,7 @@ main{
     align-items:flex-end;
     justify-content: center;
 }
-img {
+.img_body {
     height: 250px;
     width: 250px;
     display: inline-block;

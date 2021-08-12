@@ -48,7 +48,11 @@ table {
 }
 
 /* my */
-
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Circular-cyr', Helvetica, IosFix, Arial, sans-serif !important;
@@ -69,6 +73,9 @@ main{
     border: 2px solid black;
     width: 100%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 .block{
     width: 100%;
@@ -189,7 +196,7 @@ footer{
     width: 100%;
     height: 510px;
     background-color: black;
-
+    margin-top: auto;
 }
 
 .container_footer{
@@ -213,4 +220,25 @@ footer{
     width:100px;
     height:100px;
     background:rgb(83, 48, 141);
+}
+
+.footer_container_anchor{
+    height: 200px;
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-around;
+    font-size: 10px;
+}
+.a_footer {
+    padding-right: 20px;
+    color: grey;
+}
+.a_footer2{
+    color: gray;
+}
+.a_footer:hover{
+    color: green;
+}
+p.footer{
+    color:gray;
 }

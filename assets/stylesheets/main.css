@@ -194,6 +194,7 @@ footer{
     height: 510px;
     background-color: black;
     margin-top: auto;
+
 }
 
 .container_footer{
@@ -210,6 +211,12 @@ footer{
 }
 .footer_img {
     width:100px;
+    height:100px;
+    background:rgb(83, 48, 141);
+    border-radius: 50%;
+}
+.logo_2{
+    width:300px;
     height:100px;
     background:rgb(83, 48, 141);
 }

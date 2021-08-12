@@ -211,11 +211,6 @@ footer{
     font-size: 12px;
     font-weight: 700;
 }
-.list{
-    color: white;
-    padding-top: 10px;
-    font-size: 14px;
-}
 .footer_img {
     width:100px;
     height:100px;
@@ -235,6 +230,11 @@ footer{
 }
 .a_footer2{
     color: gray;
+}
+.list{
+    color: white;
+    padding-top: 10px;
+    font-size: 14px;
 }
 .a_footer:hover{
     color: green;

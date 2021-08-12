@@ -55,7 +55,7 @@ table {
 }
 
 body {
-    font-family: 'Circular-cyr', Helvetica, IosFix, Arial, sans-serif !important;
+    font-family: 'Circular-cyr', Helvetica, IosFix, Arial, sans-serif;
     width: auto;
 }
 
@@ -65,9 +65,6 @@ header{
     background-color: rgba(000,000,000,.7); 
     position: fixed;
 }
-.header_profile{
-    
-} 
 
 main{
 
@@ -242,3 +239,4 @@ footer{
 p.footer{
     color:gray;
 }
+

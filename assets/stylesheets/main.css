@@ -65,7 +65,7 @@ header{
     background-color: tomato;
     display: flex;
     color: white;
-    background: url("../img/main_profile.png") no-repeat 5% 50%;
+    background: url("../main_profile.png") no-repeat 5% 50%;
 } 
 
 main{

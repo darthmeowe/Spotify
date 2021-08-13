@@ -64,7 +64,46 @@ header{
     height: 90px;
     background-color: rgba(000,000,000,.7); 
     position: fixed;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
 }
+.menu {
+    flex-grow: 1;
+  }
+  .menu ul {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .menu li {
+    margin-right: 20px;
+  }
+  .menu li:last-child {
+    margin-right: 0;
+  }
+  .menu a {
+    padding: 8px 10px;
+  }
+  .logo {
+    margin-right: 30px;
+  }
+  .account a :hover{
+      cursor: pointer;
+  }
+  .menu a,
+  .menu .active {  
+    display: block;
+    padding: 8px 10px;
+  }
+  .active {
+    color: #fff;
+    background-color: #ff3d00;
+    border-radius: 8px;
+  }
 
 main{
 

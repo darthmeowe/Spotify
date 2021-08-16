@@ -225,13 +225,10 @@ footer{
 }
 
 .main_profile{
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
 }
-.logo{
-    width: 200px;
-    height: 150px;
-}
+
 
 .logo_2{
     width:300px;
@@ -270,14 +267,41 @@ p.footer{
     display: flex;
     flex-direction: column;
 }
-
-.block_2{
-    margin-left: auto;
-}
-.block_2 a{
-    padding-right: 20px;
+.block_1{
+    padding: 0 30px;
 }
 .block_1.logo{
     display: block;
     margin-right: auto;
+}
+.logo{
+    width: 200px;
+    height: 150px;
+}
+
+.block_2{
+    margin-left: auto;
+
+}
+.block_2 a{
+    padding: 0 20px;
+
+    cursor: pointer;
+    color: white;
+}
+.block_2 a:hover{
+    color: green;
+}
+.block_3{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.block_3 p{
+    color: white;  
+    padding: 0 20px;
+}
+.block_2 a,
+.block_3 p{
+    font-size: 16px;
 }

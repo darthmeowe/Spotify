@@ -57,6 +57,7 @@ table {
 body {
     font-family: 'Circular-cyr', Helvetica, IosFix, Arial, sans-serif;
     width: auto;
+    height: 100%;
 }
 
 header{
@@ -76,11 +77,14 @@ header{
 
 main{
     width: 100%;
+    min-height: 100vh;
+
     margin: 0 auto;
+
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
 }
+
 .block{
     width: 100%;
     height: 900px;
@@ -119,17 +123,29 @@ main{
     display: inline-block;
 } 
 
+.heading_second{
+    width: 850px;
+}
 .second_block{
     height: 500px;
 }
 .second_content{
-    padding: 50px;
+    padding: 20px 50px;
+}
+.content-box{
+    width: 300px;
+    line-height: 20px;
 }
 .container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+.anchor_green{
+    display: flex;
+    justify-content: space-between;
+}
+
 
 .anchor {
     margin-top: 20px;
@@ -199,17 +215,17 @@ button:hover{
 
 footer{
     width: 100%;
-    height: 510px;
+    height: auto;
 
     background-color: black;
 
-    margin-top: auto;
     padding: 0 30px;
 }
 
 .flex{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .container_footer{
@@ -246,11 +262,16 @@ footer{
 
 .footer_container_anchor{
     height: 200px;
+
     display: flex;
     align-items:flex-end;
     justify-content: space-around;
+
     font-size: 10px;
+
+    padding-bottom: 70px;
 }
+
 .a_footer {
     padding-right: 20px;
     color: grey;
@@ -269,6 +290,7 @@ footer{
 p.footer{
     color:gray;
 }
+
 
 
 
@@ -349,6 +371,7 @@ p.footer{
 
     background: white;
     border-radius: 5px;
+    box-shadow: 0 0 5px;
 
     position:absolute;
 

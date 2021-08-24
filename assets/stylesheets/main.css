@@ -102,7 +102,7 @@ main{
     display: flex;
 }
 .left{
-    width: 30%;   
+    width: 30%; 
 
     display:flex;
     flex-direction: column;
@@ -111,16 +111,24 @@ main{
 }
 .right{
     width: 70%;
+    min-width: 800px;
+    min-height: 700px;
 
     display:flex;
     flex-direction: column;
     align-items:flex-end;
     justify-content: center;
+
+    position: inherit;
+
 }
 .img_body {
-    height: 250px;
-    width: 250px;
-    display: inline-block;
+    height: 200px;
+    width: 200px;
+
+    max-width: 100%;
+
+    padding: 5px;
 } 
 
 .heading_second{

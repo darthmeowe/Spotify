@@ -340,6 +340,8 @@ p.footer{
     min-width: 40px;
     width: 200px;
     height: 80px;
+
+    display: none;
 }
 .menu li ul li{
     line-height: 30px;
@@ -354,4 +356,7 @@ p.footer{
 }
  .li_2{
     color: gray;
+}
+.menu li:hover{
+    display: block;
 }

@@ -10,18 +10,21 @@
 <body>
     <header>
         <div class="block_1">
-            <img src="./img/logo.png" class="logo">
+            <a href="#"><img src="./img/logo.png" class="logo"></a>
         </div>
-        <div class="block_2">
-            <a href="#">Premium</a>
-            <a href="#">Справка</a>
-            <a href="#">Скачать</a>
-        </div>
-        <div class="block_3">
-            <img src="./img/main_profile.png" class="main_profile">
-            <p>Профиль</p>
-        </div>
-
+        <nav class="menu">
+            <ul>
+                <li><a href="#" class="fal">Premium</a></li>
+                <li><a href="#" class="fal">Справка</a></li>
+                <li><a href="#" class="fal">Скачать</a></li>
+                <li><a href="#" class="fal"></a><div class="profile"><div><img src="./img/main_profile.png" class="main_profile"></div><p>Профиль</p><div><img src="./img/down-arrow.png" class="main_profile arrow"></div></a>
+                    <ul>
+                        <li><a href="#" class="li_1">Аккаунт</a></li>
+                        <li><a href="#" class="li_2">Выйти</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
     </header>
 
     <main>
@@ -58,17 +61,17 @@
                     <div>
                         <h3 class="second">Управляйте аккаунтом</h3>
                         <p class="second">Вы можете настроить профиль, обновить платежные данные и при необходимости сменить пароль.</p>
-                        <p class="anchor"><a href="https://www.spotify.com/ru-ru/account/overview/">Управление аккаунтом</a></p>
+                        <p class="anchor"><a href="#">Управление аккаунтом</a></p>
                     </div>
                     <div>
                         <h3 class="second">Скачайте бесплатное приложение</h3>
                         <p class="second">Слушайте любимую музыку в удобном приложении Spotify для компьютера.</p>
-                        <p class="anchor"><a href="https://www.spotify.com/ru-ru/account/overview/">Скачать приложение для компьютера</a></p>
+                        <p class="anchor"><a href="#">Скачать приложение для компьютера</a></p>
                     </div>
                     <div>
                         <h3 class="second">Слушайте музыку онлайн</h3>
                         <p class="second">Чтобы слушать музыку без приложения и делиться ею с другими, перейдите на страницу <a href="https://open.spotify.com" target="_blank">play.spotify.com</a>.</p>
-                        <p class="anchor"><a href="https://open.spotify.com">Открыть веб-плеер</a></p>
+                        <p class="anchor"><a href="#">Открыть веб-плеер</a></p>
                     </div>
                 </div>
                 
@@ -79,31 +82,33 @@
 
     <footer>
         <div class="container_footer">
-            <div class="logo"><img class="logo_2" src="./img/logotyp.png" /></div>
+            <div class="flex">
+                <img class="logo_2" src="./img/logotyp.png" />
+            </div>
             <div> 
                 <p class="heading">Компания</p>
                 <div class="flex">
-                    <a class="a_footer list" href="https://www.spotify.com/ru-ru/about-us/contact/">О нас</a>
-                    <a class="a_footer list" href="https://www.lifeatspotify.com">Вакансии</a>
-                    <a class="a_footer list" href="https://newsroom.spotify.com">For the Record</a>
+                    <a class="a_footer list" href="#">О нас</a>
+                    <a class="a_footer list" href="#">Вакансии</a>
+                    <a class="a_footer list" href="#">For the Record</a>
                 </div>
             </div>
             <div>
                 <p class="heading">Сообщества</p>
                 <div class="flex">
-                    <a class="a_footer list" href="https://artists.spotify.com">Для исполнителей</a>
-                    <a class="a_footer list" href="https://developer.spotify.com">Для разработчиков</a>
-                    <a class="a_footer list" href="https://ads.spotify.com/en-US/">Реклама</a>
-                    <a class="a_footer list" href="https://investors.spotify.com/home/default.aspx">Для инвесторов</a>
-                    <a class="a_footer list" href="https://spotifyforvendors.com">Для вендоров</a>
+                    <a class="a_footer list" href="#">Для исполнителей</a>
+                    <a class="a_footer list" href="#">Для разработчиков</a>
+                    <a class="a_footer list" href="#">Реклама</a>
+                    <a class="a_footer list" href="#">Для инвесторов</a>
+                    <a class="a_footer list" href="#">Для вендоров</a>
                 </div>
             </div>
             <div>
                 <p class="heading">Полезные ссылки</p>
                 <div class="flex">
-                    <a class="a_footer list" href="https://support.spotify.com/ru-ru/">Справка</a>
-                    <a class="a_footer list" href="https://open.spotify.com">Веб-плеер</a>
-                    <a class="a_footer list" href="https://www.spotify.com/ru-ru/download/windows/">Бесплатное мобильное приложение</a>
+                    <a class="a_footer list" href="#">Справка</a>
+                    <a class="a_footer list" href="#">Веб-плеер</a>
+                    <a class="a_footer list" href="#">Бесплатное мобильное приложение</a>
                 </div>
             </div>
             <div>
@@ -114,14 +119,14 @@
         </div>
         <div class="footer_container_anchor">
             <div >
-                <a class="a_footer" href="https://www.spotify.com/ru-ru/legal/end-user-agreement/">Юридическая информация</a>
-                <a class="a_footer" href="https://www.spotify.com/ru-ru/privacy">Конфиденциальность</a>
-                <a class="a_footer" href="https://www.spotify.com/ru-ru/legal/privacy-policy/">Политика конфиденциальности</a>
-                <a class="a_footer" href="https://www.spotify.com/ru-ru/legal/cookies-policy/">Файлы cookie</a>
-                <a class="a_footer" href="https://www.spotify.com/ru-ru/legal/privacy-policy/#s3">О рекламе</a>
+                <a class="a_footer" href="#">Юридическая информация</a>
+                <a class="a_footer" href="#">Конфиденциальность</a>
+                <a class="a_footer" href="#">Политика конфиденциальности</a>
+                <a class="a_footer" href="#">Файлы cookie</a>
+                <a class="a_footer" href="#">О рекламе</a>
             </div>
             <div>
-                <div><a class="a_footer a_footer2" href="https://www.spotify.com/ru-ru/select-your-country-region/">Россия (русский)</a></div>
+                <div><a class="a_footer a_footer2" href="#">Россия (русский)</a></div>
                 <div><p class="footer">2021 Spotify AB</p></div>
             </div>
         </div>

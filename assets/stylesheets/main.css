@@ -95,6 +95,8 @@ main{
 .first_block{
     background:linear-gradient(to left,   rgb(83, 48, 141), rgb(187, 123, 194), rgb(133, 74, 127));
     height: 100vh;
+
+    display: block;
 }
 .first_content {
     width: auto;
